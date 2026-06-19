@@ -1,0 +1,10 @@
+apps/backend/
+└── src/
+    ├── controller/      <-- Onde vão ficar as suas rotas do Express
+    ├── database/        <-- Onde vai ficar o arquivo de conexão do Sequelize
+    ├── model/           <-- Onde vão ficar os modelos das tabelas (tabela de usuários, lutas, etc.)
+    ├── service/         <-- Onde vai ficar a lógica de negócio e consultas ao banco
+    └── index.js         <-- O arquivo principal que vai inicializar o servidor
+
+back-end (Node + Express + Sequelize)   
+front-end (React + Vite + Tailwind v4)

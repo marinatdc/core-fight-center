@@ -1,3 +1,24 @@
+Plaintext
+# Dependências
+node_modules/
+.pnpm-store/
+
+# Arquivos de Configuração Local e Senhas (CRÍTICO)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Builds e saídas de código
+dist/
+build/
+.cache/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
 # Logs
 logs
 *.log

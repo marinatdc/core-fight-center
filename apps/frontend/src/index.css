@@ -259,3 +259,13 @@ ol {
   background: var(--color-primary);
   color: #000;
 }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px var(--color-input-bg) inset !important;
+  -webkit-text-fill-color: var(--color-text-primary) !important;
+  border: 1px solid var(--color-input-border) !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
